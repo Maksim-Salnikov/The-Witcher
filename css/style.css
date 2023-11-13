@@ -306,4 +306,12 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+.test {
+  font-family: Mason Chronicles;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */
