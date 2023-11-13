@@ -446,4 +446,36 @@ template {
 .main-play__image {
   transform: translateX(10%);
   z-index: 30;
+}
+
+.footer {
+  padding: 20px 0;
+}
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__info {
+  color: #D3D3D3;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 20px;
+}
+.footer-menu {
+  width: 276px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-menu__item {
+  text-decoration: none;
+  color: #D3D3D3;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 20px;
 }/*# sourceMappingURL=style.css.map */
