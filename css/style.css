@@ -1,3 +1,12 @@
+body {
+  background-color: #141218;
+}
+
+.container {
+  width: 1135px;
+  margin: auto;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -308,10 +317,34 @@ template {
   display: none;
 }
 
-.test {
-  font-family: Mason Chronicles;
-  font-size: 76px;
+.header {
+  padding: 60px 0;
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-menu {
+  width: 222px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: 68px;
+}
+.header-menu__item {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
+}
+.header-contacts {
+  width: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
