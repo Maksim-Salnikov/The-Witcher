@@ -347,4 +347,103 @@ template {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.main {
+  padding: 30px 0 99px 0;
+}
+.main__wrapper {
+  display: flex;
+  align-items: center;
+}
+.main__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main__year {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.main-stars {
+  display: flex;
+  align-items: center;
+}
+.main-stars__item {
+  margin-right: 2px;
+}
+.main-stars__text {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 9px;
+}
+.main__title {
+  margin: 0;
+  color: #FFF;
+  font-family: Mason Chronicles;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.main__text {
+  margin: 0;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 40px;
+  width: 458px;
+}
+.main__button {
+  padding: 22px 72px;
+  border-radius: 8px;
+  border: none;
+  background-color: #9D2929;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  margin-bottom: 107px;
+}
+.main-play {
+  position: relative;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #9D2929;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+}
+.main-play::before {
+  content: "";
+  width: 132px;
+  height: 132px;
+  background-color: #9D2929;
+  border-radius: 66px;
+  opacity: 0.5;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+.main-play__image {
+  transform: translateX(10%);
+  z-index: 30;
 }/*# sourceMappingURL=style.css.map */
