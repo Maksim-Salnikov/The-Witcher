@@ -3,6 +3,9 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top right 25%;
 }
 
 .container {
