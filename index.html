@@ -11,6 +11,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
@@ -108,7 +112,33 @@
               принцесс.
             </p>
             <button class="main__button">Смотреть онлайн</button>
-            <div class="main-slider"></div>
+            <div class="main-series">
+              <div class="swiper main-series">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="main-series-card main-series__slide1">
+                      <span class="main-series-card__subtitle">Серия #1</span>
+                      <h3 class="main-series-card__title">Начало конца</h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="main-series-card main-series__slide2">
+                      <span class="main-series-card__subtitle">Серия #2</span>
+                      <h3 class="main-series-card__title">Четыре знака</h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="main-series-card main-series__slide2">
+                      <span class="main-series-card__subtitle">Серия #3</span>
+                      <h3 class="main-series-card__title">Десять знаков</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="main-series-button"></button>
+            </div>
           </div>
           <!-- /.main-info -->
           <button class="main-play">
@@ -136,5 +166,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
