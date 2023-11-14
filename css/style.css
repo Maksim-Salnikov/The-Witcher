@@ -1,5 +1,8 @@
 body {
   background-color: #141218;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -449,6 +452,7 @@ template {
 }
 
 .footer {
+  margin-top: auto;
   padding: 20px 0;
 }
 .footer__wrapper {
